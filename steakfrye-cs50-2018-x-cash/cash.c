@@ -1,3 +1,5 @@
+//Calculates change owed with fewest coins used
+
 #include <stdio.h>
 #include <cs50.h>
 #include <math.h>
