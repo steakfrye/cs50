@@ -1,4 +1,5 @@
-// Helper functions for music
+// Helper functions for music application
+//Functions are used to read a text file, interpret it, and return notes and frequencies to be made into WAV file
 
 #include <cs50.h>
 #include <math.h>
@@ -10,9 +11,6 @@
 // Converts a fraction formatted as X/Y to eighths
 int duration(string fraction)
 {
-    // TODO
-    //-Find the denominator if it is not equal to 8
-    //-Convert fraction to be x/8
     if (fraction[0] == '1')
     {
         if (fraction[2] == '1')
@@ -34,12 +32,6 @@ int duration(string fraction)
 // Calculates frequency (in Hz) of a note
 int frequency(string note)
 {
-    // TODO
-    //-parse the string into a note and octave
-    //-calculate the frequency of the note in that octave
-    //-Return the frequency
-    //Don't forget to round!
-
     //find the octave and convert the ASCII value to a float
     float octave = note[strlen(note) - 1];
     octave -= 48.0;
@@ -83,14 +75,8 @@ int frequency(string note)
 // Determines whether a string represents a rest
 bool is_rest(string s)
 {
-    // TODO
-    //-Determine what is represented as a rest
     if (strncmp(s, "", 1))
-    {
         return false;
-    }
     else
-    {
         return true;
-    }
 }
