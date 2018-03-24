@@ -1,3 +1,5 @@
+//Enciphers text using based on a command line key word
+
 #include <cs50.h>
 #include <ctype.h>
 #include <stdio.h>
@@ -43,9 +45,7 @@ int main(int argc, string argv[])
 
         //if the text has a character that is not alphabetical, no change needed
         if (!isalpha(ltr))
-        {
             printf("%c", ltr);
-        }
 
         else if (isupper(ltr))
         {
@@ -63,11 +63,8 @@ int main(int argc, string argv[])
             k++;
         }
         else
-        {
             printf("Whoops");
-        }
     }
     printf("\n");
-
     return 0;
 }
