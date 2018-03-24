@@ -1,3 +1,5 @@
+//Prints out a half pyramid of size specified by user
+
 #include <stdio.h>
 #include <cs50.h>
 
