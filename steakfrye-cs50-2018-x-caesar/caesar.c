@@ -1,3 +1,5 @@
+//Encrypts text using a simple cipher given by the user
+
 #include <cs50.h>
 #include <ctype.h>
 #include <stdio.h>
@@ -16,6 +18,7 @@ int main(int argc, string argv[])
         string text = get_string("plaintext: ");
 
         printf("ciphertext: ");
+        //iterate through text
         for (int j = 0, n = strlen(text); j < n; j++)
         {
             char x = text[j];
