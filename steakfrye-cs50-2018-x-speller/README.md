@@ -26,4 +26,4 @@ You can easily receive a stack overflow with `fscanf` with the large texts files
 
 ## Why do you think we declared the parameters for `check` and `load` as `const` (which means "constant")?
 
-We don't want them to be modified because we will be using them often.
+We don't want them to be modified because we will be using them often.# speller
