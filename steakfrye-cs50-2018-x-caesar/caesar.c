@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+//Encrypts text using a simple cipher given by the user
+
+>>>>>>> 2930f00bb48c21d2c65597b28ef9d128d2449940
 #include <cs50.h>
 #include <ctype.h>
 #include <stdio.h>
@@ -16,6 +21,10 @@ int main(int argc, string argv[])
         string text = get_string("plaintext: ");
 
         printf("ciphertext: ");
+<<<<<<< HEAD
+=======
+        //iterate through text
+>>>>>>> 2930f00bb48c21d2c65597b28ef9d128d2449940
         for (int j = 0, n = strlen(text); j < n; j++)
         {
             char x = text[j];
@@ -48,4 +57,8 @@ int main(int argc, string argv[])
     }
     printf("\n");
     return 0;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 2930f00bb48c21d2c65597b28ef9d128d2449940

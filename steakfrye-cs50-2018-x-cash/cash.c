@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+//Calculates change owed with fewest coins used
+
+>>>>>>> 2930f00bb48c21d2c65597b28ef9d128d2449940
 #include <stdio.h>
 #include <cs50.h>
 #include <math.h>
@@ -47,4 +52,8 @@ int main(void)
 
         printf("%i Coins used.\n", coins);
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 2930f00bb48c21d2c65597b28ef9d128d2449940

@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+//Prints out a half pyramid of size specified by user
+
+>>>>>>> 2930f00bb48c21d2c65597b28ef9d128d2449940
 #include <stdio.h>
 #include <cs50.h>
 
@@ -30,4 +35,8 @@ int main(void)
             printf("\n");
         }
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 2930f00bb48c21d2c65597b28ef9d128d2449940

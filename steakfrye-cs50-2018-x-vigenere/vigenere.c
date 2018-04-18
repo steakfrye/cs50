@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+//Enciphers text using based on a command line key word
+
+>>>>>>> 2930f00bb48c21d2c65597b28ef9d128d2449940
 #include <cs50.h>
 #include <ctype.h>
 #include <stdio.h>
@@ -43,9 +48,13 @@ int main(int argc, string argv[])
 
         //if the text has a character that is not alphabetical, no change needed
         if (!isalpha(ltr))
+<<<<<<< HEAD
         {
             printf("%c", ltr);
         }
+=======
+            printf("%c", ltr);
+>>>>>>> 2930f00bb48c21d2c65597b28ef9d128d2449940
 
         else if (isupper(ltr))
         {
@@ -63,6 +72,7 @@ int main(int argc, string argv[])
             k++;
         }
         else
+<<<<<<< HEAD
         {
             printf("Whoops");
         }
@@ -71,3 +81,10 @@ int main(int argc, string argv[])
 
     return 0;
 }
+=======
+            printf("Whoops");
+    }
+    printf("\n");
+    return 0;
+}
+>>>>>>> 2930f00bb48c21d2c65597b28ef9d128d2449940
