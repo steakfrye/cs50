@@ -1,0 +1,30 @@
+{% extends "layout.html" %}
+
+{% block body %}
+
+    <div class="col">
+        <form action="/compare" enctype="multipart/form-data" method="post">
+
+            <!-- TODO
+                Inside the body block, add form
+                Make sure form sends correctly encoded POST request to /compare
+                Let user choose file1, file2, algorithm, and length (if substring was chosen)
+                Add a button to submit form
+            -->
+            <input type=file name="a">
+
+            <input type=file name="b">
+
+            <input type=radio name="algorithm">
+
+            <input type=radio name="algorithm">
+
+            <input type=radio name="algorithm">
+
+            <input type=number name="length">
+
+            <button type="submit">Compare</button>
+        </form>
+    </div>
+
+{% endblock %}
